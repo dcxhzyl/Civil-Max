@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "civil_to_the_max:blocks/wood",
+    "up": "civil_to_the_max:blocks/wood",
+    "north": "civil_to_the_max:blocks/sorted_bookshelf",
+    "east": "civil_to_the_max:blocks/sorted_bookshelf",
+    "south": "civil_to_the_max:blocks/sorted_bookshelf",
+    "west": "civil_to_the_max:blocks/sorted_bookshelf",
+    "particle": "civil_to_the_max:blocks/wood"
+  }
+}

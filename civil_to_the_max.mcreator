@@ -1,9 +1,57 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "RighhtClickSortedbookshelf",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "righht_click_sortedbookshelf",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sortedbookshelf",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sortedbookshelf"
+    },
+    {
+      "name": "Am",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "am"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.civil_to_the_max.sortedbookshelf": "Sorted bookshelf",
+      "item.civil_to_the_max.am": "Am"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -13,7 +61,7 @@
     "modid": "civil_to_the_max",
     "modName": "Civil to the Max",
     "version": "1.0.0",
-    "author": "qizhengwang, MCreator",
+    "author": "电磁相互作用力, 引力, 弱相互作用力, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
@@ -23,6 +71,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.civiltothemax",
     "lockBaseModFiles": false
   },

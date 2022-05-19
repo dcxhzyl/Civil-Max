@@ -26,6 +26,9 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.civiltothemax.init.CivilToTheMaxModItems;
+import net.mcreator.civiltothemax.init.CivilToTheMaxModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -42,6 +45,8 @@ public class CivilToTheMaxMod {
 	public CivilToTheMaxMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		CivilToTheMaxModBlocks.REGISTRY.register(bus);
+		CivilToTheMaxModItems.REGISTRY.register(bus);
 
 	}
 
